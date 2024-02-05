@@ -342,6 +342,21 @@ footer button {
         margin-right: 0;
     }
 }
+/* Mobile-Friendly Footer */
+@media only screen and (max-width: 768px) {
+    footer {
+        margin: 20px 0;
+        margin-left: 0; /* Remove left margin on smaller screens */
+    }
+
+    .footer-pannellink {
+        flex-direction: column; /* Stack items vertically on smaller screens */
+    }
+
+    ul {
+        margin-top: 10px; /* Adjust spacing between list items */
+    }
+}
 
 
 
